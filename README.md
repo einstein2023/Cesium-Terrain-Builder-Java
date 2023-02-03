@@ -1,9 +1,10 @@
 # Cesium-Terrain-Builder-Java
 cesium terrain builder by java
 
-基于JAVA技术实现DEM转换为Cesium的地形数据
+基于JAVA技术实现DEM转换为Cesium的地形数据  
+开发者：59135929@qq.com  
 
-前言：开发者可以轻松的将该应用程序集成到自己的平台应用程序中，形成一整体套的数据转换与应用解决方案。基于JAVA的开发技术路线，可以更便捷的跨平台部署，使得您的平台应用程序更适应未来的云部署方案。源码合作与该邮件联系59135929@qq.com。
+前言：开发者可以轻松的将该应用程序集成到自己的平台应用程序中，形成一整体套的数据转换与应用解决方案。基于JAVA的开发技术路线，可以更便捷的跨平台部署，使得您的平台应用程序更适应未来的云部署方案。
 
 这是一个Java应用程序库，旨在创建用于Cesium JavaScript库的地形瓦片。Ceium可以在您的web浏览器中创建交互式3D地球，从而将图像覆盖在底层地形的模型上。Cesium为地形数据提供了许多不同的来源，其中之一是用于CesiumTerrainProvider JavaScript类的高度图数据。
 
