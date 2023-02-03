@@ -21,13 +21,13 @@ Delaunay参考：[地形建模及渲染实践 - 知乎](https://zhuanlan.zhihu.c
 地形网格创建以后，开始创建并填充地形瓦片的数据（瓦片中心点、包围球、三角网格顶点与索引等），并将创建的地形瓦片保存到目录中，所有瓦片都具有后缀名.terrain。
 
 二、数据索引文件layer.json  
-在layer.json文件中，需要了解以下几个重要的节点意义。
-available：在Cesium加载地形时，会根据缩放级别和瓦片索引请求地形瓦片数据，在请求前，它会检查当前的索引值是否在available的范围中，如果不存在，则不发起请求。
-tiles:切片数据访问url结构；
-projection:切片数据的投影名称；
-scheme:切片数据平铺方案；
-version:数据版本；
-extension:扩展(是否包括法线和水面)；
+在layer.json文件中，需要了解以下几个重要的节点意义。  
+available：在Cesium加载地形时，会根据缩放级别和瓦片索引请求地形瓦片数据，在请求前，它会检查当前的索引值是否在available的范围中，如果不存在，则不发起请求。  
+tiles:切片数据访问url结构；  
+projection:切片数据的投影名称；  
+scheme:切片数据平铺方案；  
+version:数据版本；  
+extension:扩展(是否包括法线和水面)；  
 
 三、开发环境  
 1、Java jkd 1.8，安装结束后配置相关环境变量；  
