@@ -6,9 +6,7 @@ cesium terrain builder by java
 
 前言：开发者可以轻松的将该应用程序集成到自己的平台应用程序中，形成一整体套的数据转换与应用解决方案。基于JAVA的开发技术路线，可以更便捷的跨平台部署，使得您的平台应用程序更适应未来的云部署方案。
 
-这是一个Java应用程序库，旨在创建用于Cesium JavaScript库的地形瓦片。Ceium可以在您的web浏览器中创建交互式3D地球，从而将图像覆盖在底层地形的模型上。Cesium为地形数据提供了许多不同的来源，其中之一是用于CesiumTerrainProvider JavaScript类的高度图数据。
-
-Cesium地形生成器可用于创建位于Cesium地形提供商使用的地形服务器后面的瓦片。请注意，这些工具不提供向浏览器提供这些平铺的方式：相反，Cesium Terrain Server是为提供地形平铺而设计的。特别是Docker大地数据/铯地形服务器图像旨在简化地形瓦片的可视化。
+这是一个Java应用程序库，旨在创建用于Cesium JavaScript库的地形瓦片。Ceium可以在您的web浏览器中创建交互式3D地球，从而将图像覆盖在底层地形的模型上。Cesium为地形数据提供了许多不同的来源，开发者可以使用CesiumTerrainProvider类加载当前应用程序生成的地形数据。
 
 一、数据切片  
 Quantized-mesh-1.0是简单多分辨率四叉树金字塔的高度图。它的切片规则和Tile Map Service (TMS) 的global-geodetic规则相似。通过这个切片规则计算与原始光栅分辨率相关的最大、最小缩放级别，并为该最大、最小缩放级别创建地形瓦片，其中平铺范围与光栅范围重叠。
