@@ -19,9 +19,6 @@ Delatin参考：https://github.com/mapbox/delatin
 Delaunay参考：[地形建模及渲染实践 - 知乎](https://zhuanlan.zhihu.com/p/377913642)
 
 地形网格创建以后，开始创建并填充地形瓦片的数据（瓦片中心点、包围球、三角网格顶点与索引等），并将创建的地形瓦片保存到目录中，所有瓦片都具有后缀名.terrain。
-————————————————
-版权声明：本文为CSDN博主「再度梦想」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/boy20000/article/details/128861847
 
 二、数据索引文件layer.json  
 在layer.json文件中，需要了解以下几个重要的节点意义。
